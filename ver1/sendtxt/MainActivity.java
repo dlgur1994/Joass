@@ -1,4 +1,4 @@
-package com.example.hyuk.joassprac;
+package com.example.hyuk.joassprac;     //제작환경으로_바꿔줘야한다
 
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
@@ -18,8 +18,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
-    private static String IP_ADDRESS = "ec2-54-180-24-156.ap-northeast-2.compute.amazonaws.com";
-    private static String TAG = "joassprac";
+    private static String IP_ADDRESS = "ec2-54-180-24-156.ap-northeast-2.compute.amazonaws.com"; //서버주소입력
+    private static String TAG = "joassprac";      //
 
     private EditText mEditTextName;
     private EditText mEditTextCountry;
