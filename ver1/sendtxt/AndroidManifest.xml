@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hyuk.joassprac">
+    package="com.example.hyuk.joassprac">   //만든환경으로_바꿔줘야_한다
 
-    <uses-permission android:name="android.permission.INTERNET" />    //이것만추가하면된다 
+    <uses-permission android:name="android.permission.INTERNET" />    //이것만_추가하면_된다 
 
     <application
         android:allowBackup="true"
