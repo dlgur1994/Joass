@@ -30,3 +30,6 @@ for i in range(n):
 tc = np.array(tc)
 tc = tc.astype(np.float32)
 f.close()
+
+np.savez('desktop/mfcc_train_final/train_data', X = tc)
+#전체 set을 합친 npz 파일 저장
