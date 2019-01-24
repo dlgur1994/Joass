@@ -19,13 +19,12 @@ n = 39 #column 개수
 #총 50개의 file을 feature 추출한다.
 for i in range(n_files):
     all_mfccs = []
-    files = (r'desktop/train/%d.wav'%i)
-    #feature 추출할 .wav 파일의 위치
+    files = ('desktop/train/%d.wav'%i) #feature 추출할 .wav 파일의 위치
+    
     all_mfccs = np.ndarray(shape=[0, n], dtype = np.float32)
-    feature = extract_feature(files)
-    #file에서 특징 추출한 feature
+    feature = extract_feature(files) #file에서 특징 추출한 feature
+    
     all_mfccs = np.append(all_mfccs, feature, axis=0)
-    np.savez('desktop/mfcc_result/%d'%i, X = all_mfccs)
-    #추출한 feature, numpy 행렬으로 저장
+    np.savez('desktop/mfcc_train/%d'%i, X = all_mfccs) #추출한 feature, numpy 행렬으로 저장
+    
     print(i,"file")
-    print mfcc.shape
