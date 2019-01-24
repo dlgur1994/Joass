@@ -4,7 +4,7 @@ import numpy as np
 
 def extract_feature(file_name):
     X, sample_rate = librosa.load(file_name)
-    mfccs = np.mean(librosa.feature.mfcc(y=X, sr=sample_rate, n_mfcc=40).T,axis=0)
+    mfccs = np.mean(librosa.feature.mfcc(y=X, sr=sample_rate, n_mfcc=39).T,axis=0)
     return mfccs
 
 def parse_audio_files(filenames):
