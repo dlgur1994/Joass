@@ -35,7 +35,7 @@ def parse_audio_files(filenames):
 
 audio_files = []
 for i in range(1,11):
-    audio_files.extend(glob.glob('UrbanSound8K/audio/fold%d/*.wav' % i))
+    audio_files.extend(glob.glob('train/%d.wav' % i))
 
 print(len(audio_files))
 for i in range(9):
@@ -45,4 +45,4 @@ for i in range(9):
         if np.sum(r) > 1.5:
             print('error occured')
             break
-    np.savez('urban_sound_%d' % i, X=X, y=y, groups=groups)
+    np.savez('mfcc_train/%d' % i, X=X, y=y, groups=groups)
