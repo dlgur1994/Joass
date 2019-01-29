@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-package="com.example.hyuk.gettxtandreadtxt">
+package="com.example.hyuk.gettxtandreadtxt"> //개발 환경으로 바꿔줘야 한다
 
 <uses-permission android:name="android.permission.INTERNET"/>
 
