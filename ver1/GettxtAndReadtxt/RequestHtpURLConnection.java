@@ -1,4 +1,4 @@
-package com.example.hyuk.gettxtandreadtxt;
+package com.example.hyuk.gettxtandreadtxt; //수정 
 
 import android.content.ContentValues;
 import java.io.BufferedReader;
