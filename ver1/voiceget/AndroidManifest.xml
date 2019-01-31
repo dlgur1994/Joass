@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hyuk.joass1">
+    package="com.example.hyuk.joass1">     //바꿔야함
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />     //추가 (여기만)
     <uses-permission android:name="android.permission.RECORD_AUDIO" />               //추가 (여기만)
