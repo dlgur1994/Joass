@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private TextToSpeech tts;              // TTS 변수 선언
     private Button button;
 
-    String url = "http://ec2-13-209-47-170.ap-northeast-2.compute.amazonaws.com/new.php";
+    String url = "http://ec2-13-209-47-170.ap-northeast-2.compute.amazonaws.com/new.php";        //바꿔줘야 한다
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
