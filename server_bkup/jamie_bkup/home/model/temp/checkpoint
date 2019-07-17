@@ -1,0 +1,2 @@
+model_checkpoint_path: "/gdrive/My Drive/18-winter/\353\202\264\353\252\251\354\206\214\353\246\254/model_20/main_model.ckpt"
+all_model_checkpoint_paths: "/gdrive/My Drive/18-winter/\353\202\264\353\252\251\354\206\214\353\246\254/model_20/main_model.ckpt"
